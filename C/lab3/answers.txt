@@ -1,0 +1,10 @@
+Respostas corrigidas:
+
+Sort1 usa: Insertion Sort
+Como você sabe?: O Sort1 tem um tempo de execução pior em conjuntos de dados maiores, o que é característico do Insertion Sort devido à sua complexidade quadrática. Além disso, o desempenho do Sort1 é consistente em diferentes conjuntos de dados, indicando uma abordagem semelhante em todos os casos.
+
+Sort2 usa: Bubble Sort
+Como você sabe?: O Sort2 tem um desempenho ruim em todos os conjuntos de dados, independentemente de serem quase ordenados, aleatórios ou reversos, o que é uma característica do Bubble Sort devido à sua complexidade quadrática.
+
+Sort3 usa: Merge Sort
+Como você sabe?: O Sort3 tem um desempenho melhor em conjuntos de dados aleatórios e inversos, mas um pouco pior em conjuntos de dados quase ordenados, o que sugere a utilização de uma estratégia de divisão e conquista como o Merge Sort. Além disso, o tempo de execução do Sort3 não aumenta significativamente com o tamanho dos dados, indicando uma complexidade de tempo logarítmica ou quase logarítmica.

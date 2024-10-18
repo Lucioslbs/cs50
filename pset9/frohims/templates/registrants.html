@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registrants</title>
+</head>
+<body>
+    <h1>Registrants</h1>
+    <ul>
+        {% for registrant in registrants %}
+            <li>{{ registrant.email }}: {{ registrant.sport }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

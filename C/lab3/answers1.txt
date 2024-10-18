@@ -1,0 +1,125 @@
+sort1 uses: Buble Sort
+Sort1 geralmente tem o desempenho mais consistente em diferentes conjuntos de dados
+How do you know?: TODO
+O tempo de execução do Sort1 aumenta significativamente com o tamanho dos dados, indicando a complexidade quadrática característica do Bubble Sort. Além disso, o tempo de execução é consistente em diferentes conjuntos de dados, sugerindo que o algoritmo tem uma abordagem semelhante em todos os casos.
+sort2 uses: Insertion Sort
+O método Sort2 tem o desempenho mais rápido em conjuntos de dados aleatórios e ordenados, mas é menos eficiente em conjuntos de dados inversos.
+How do you know?: TODO
+O Sort2 tem um desempenho mais rápido em conjuntos de dados aleatórios e ordenados, o que é típico do Insertion Sort. No entanto, ele tem um desempenho muito pior em conjuntos de dados reversos, o que é uma característica comum do Insertion Sort.
+sort3 uses: Merge Sort
+O método Sort3 é mais rápido em conjuntos de dados ordenados, mas é menos eficiente em conjuntos de dados aleatórios e inversos.
+How do you know?: TODO
+O Sort3 tem um desempenho muito melhor em conjuntos de dados ordenados, o que sugere que utiliza uma estratégia de divisão e conquista como o Merge Sort. No entanto, ele é menos eficiente em conjuntos de dados aleatórios e inversos, o que pode ser explicado pela sobrecarga adicional do Merge Sort em termos de espaço e operações de mesclagem.
+Sort1
+// random5000
+real    0m0,073s
+user    0m0,033s
+sys     0m0,030s
+Sort2
+real    0m0,071s
+user    0m0,000s
+sys     0m0,033s
+Sort3
+real    0m0,059s
+user    0m0,019s
+sys     0m0,031s
+// random10000
+real    0m0,253s
+user    0m0,157s
+sys     0m0,062s
+Sort2
+real    0m0,078s
+user    0m0,007s
+sys     0m0,054s
+Sort3
+real    0m0,130s
+user    0m0,070s
+sys     0m0,054s
+// random50000
+real    0m7,900s
+user    0m5,105s
+sys     0m0,300s
+Sort2
+real    0m1,941s
+user    0m0,031s
+sys     0m0,242s
+Sort3
+real    0m5,308s
+user    0m1,730s
+sys     0m0,306s
+// reversed5000
+Sort1
+real    0m0,146s
+user    0m0,037s
+sys     0m0,044s
+Sort2
+real    0m0,033s
+user    0m0,000s
+sys     0m0,029s
+Sort3
+real    0m0,058s
+user    0m0,019s
+sys     0m0,030s
+// reversed10000
+real    0m0,246s
+user    0m0,170s
+sys     0m0,062s
+Sort2
+real    0m0,069s
+user    0m0,004s
+sys     0m0,055s
+Sort3
+real    0m0,167s
+user    0m0,076s
+sys     0m0,061s
+// reversed50000
+real    0m6,466s
+user    0m4,452s
+sys     0m0,270s
+Sort2
+real    0m2,237s
+user    0m0,021s
+sys     0m0,268s
+Sort3
+real    0m4,596s
+user    0m2,120s
+sys     0m0,248s
+// sorted5000
+Sort1
+real    0m0,029s
+user    0m0,000s
+sys     0m0,028s
+Sort2
+real    0m0,034s
+user    0m0,004s
+sys     0m0,026s
+Sort3
+real    0m0,056s
+user    0m0,016s
+sys     0m0,031s
+// sorted10000
+Sort1
+real    0m0,078s
+user    0m0,008s
+sys     0m0,053s
+Sort2
+real    0m0,063s
+user    0m0,004s
+sys     0m0,053s
+Sort3
+real    0m0,164s
+user    0m0,084s
+sys     0m0,050s
+// sorted50000
+Sort1
+real    0m2,152s
+user    0m0,016s
+sys     0m0,264s
+Sort2
+real    0m6,246s
+user    0m0,033s
+sys     0m0,250s
+Sort3
+real    0m4,550s
+user    0m1,881s
+sys     0m0,255s

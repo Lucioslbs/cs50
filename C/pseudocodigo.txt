@@ -1,0 +1,4 @@
+1- Qual a altura da piramede?
+2- Se o tamanho for menor que 1 ou maior que 8 (ou não inteiro), fique nesse passo até que o usuário insira uma entrada válida.
+3- Altere a variável i até o tamanho da altura.
+4- Imprima os #.[Não se esqueça da quebra de linha!]
